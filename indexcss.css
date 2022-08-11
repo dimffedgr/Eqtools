@@ -1,0 +1,83 @@
+#login-box {
+    border: 1px solid blue;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    transition:0.2s;
+    background:rgba(128,128,128,0.5);   
+}
+#login-box h1 {
+    color: white;
+}
+#login-box button {
+    /* 设置合适的按钮的长和宽 */
+    width: 150px; 
+    /* height: 30px; */
+    text-transform: uppercase;
+    border: 3px solid #FFFFFF; /* 设置按钮的边界粗细和颜色 */
+    margin-top: 18px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+    text-align: center;
+    font-size: 10px; /* 修改按钮文字的大小 */
+    /* 设置按钮里面字体颜色 */
+    color: #FFFFFF;
+    line-height: 20px;
+    border-radius: 30px; /* 将按钮的左右边框设置为圆弧 */
+    cursor: pointer;
+    /* 圆角弧度24px */
+    transition:0.2s;
+    /* 设置按钮背景为透明 */
+    background:rgba(0,0,0,0);   
+}
+#notice h3{
+color:white
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+body{
+		background: url("bkgd.jpeg") no-repeat center center fixed;
+                /*兼容浏览器版本*/
+                -webkit-background-size: cover;
+                -o-background-size: cover;                
+                background-size: cover;
+	}
+button {
+    /* 设置合适的按钮的长和宽 */
+    width: 150px; 
+    /* height: 30px; */
+    text-transform: uppercase;
+    border: 3px solid #FFFFFF; /* 设置按钮的边界粗细和颜色 */
+    margin-top: 18px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+    text-align: center;
+    font-size: 10px; /* 修改按钮文字的大小 */
+    /* 设置按钮里面字体颜色 */
+    color: #FFFFFF;
+    line-height: 20px;
+    border-radius: 30px; /* 将按钮的左右边框设置为圆弧 */
+    cursor: pointer;
+    /* 圆角弧度24px */
+    transition:0.2s;
+    /* 设置按钮背景为透明 */
+    background:rgba(0,0,0,0);   
+}
+a{
+	color:white;
+	text-decoration:none;
+}
+address {
+    border: 1px solid blue;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #00000080;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    transition:0.2s;
+    background:rgba(128,128,128,0.5);   
+}
