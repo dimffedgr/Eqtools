@@ -1,28 +1,43 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html>
 	<head>
-	    <meta charset="utf-8">
-	    <title>Eqtools</title>
-	    <link rel="stylesheet" href="indexcss.css"/>
-	    <script type="text/javascript">
-	    if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-        alert('您正在通过手机访问,建议使用PC端哦～');
-         } 
-	    </script>
+		<meta charset="utf-8" />
+		<title>Chinese Earthquake List</title>
+		<script src="https://projectbs.cn/js/jquery-3.6.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js"></script>
+		<link rel="stylesheet" href="css/style.css"/>
 	</head>
 	<body>
-        <div id="login-box">
-            <h6>酷暑·夏末</h6>
-            <h1>Eqtools-地震检测工具网站</h1>
-            <button><a href="cnjson.html">NIED公布的实施数据可视化<br>(強震モニタ)</a></button>
-            <button><a href="jquakeshot.html">JQuake地震侧边栏截图<br>大概率每日一更</a></button>
-            <button><a href="jquake_like.html">由CNEC提供数据，其他网站进行json数据获取、格式化与美化的仿JQuake地震列表</a></button>
-            <button><a href="tag.html">网页Tag检索<br>目前检索方式：tree</a></button>
-            <button><a href="about.html">关于<br>这个网站的一切！Hiaiaia～</a></button>
-	        <br>
-	        <h6>社交媒体：</h6>
-	        <a href="https://space.bilibili.com/1418001879"><img src="bilibili-line.png" height="32" width="32"></a>
-        </div>
-        <address><a href="https://www.rainyun.com">本站由雨云提供计算服务</a><br>LD联盟|Powered By <a href = "mailto:dhx233@outlook.com">DHX233</a><br><a href="../index.html">去往/返回我们的团队页面</a>--建议使用PC端哦</address>
-   </body>
-</html>   
+		<div id="mainBar">
+			<div id="mainLeft">
+				<div id="mainTime">01/01 00:00</div>
+				<div id="mainEpicenter">载入中</div>
+				<div id="mainDepth">0<font size="3">&nbsp;km</font></div>
+				<div id="mainMagnitude"><font size="4">M</font>0.0</div>
+			</div>
+			<div id="mainMaxInt">-</div>
+		</div>
+		<!-- 为方便debug，sub直接从2开始 -->
+		<div id="subBar2">
+			<div id="subLeft2">
+				<div id="subTime2">01/01 00:00</div>
+				<div id="subEpicenter2">载入中</div>
+				<div id="subMagnitude2">M0.0</div>
+			</div>
+			<div id="subMaxInt2">-</div>
+		</div>
+		<div id="subBar3">
+			<div id="subLeft3">
+				<div id="subTime3">01/01 00:00</div>
+				<div id="subEpicenter3">载入中</div>
+				<div id="subMagnitude3">M0.0</div>
+			</div>
+			<div id="subMaxInt3">-</div>
+		</div>
+		<!--剩下的sub由js创建-->
+		<p>-------------------------------------</p>
+		<br>
+		<font color="white"><p>原代码开源许可为MIT许可证，所以本页面所有源代码依然遵循MIT开源许可证。本人在源代码上增加了一些微小的改动。原作者：丿丶夜曦、CRooi<br> Github仓库<br>https://github.com/CRooi/Chinese-Earthquake-List<br>在原先源代码的readme.md中，原作者注明Javascript有Bug，但是我懒的找了，目前发现一切功能正常，但是地震信息远远超过原作者标注的50条，第一列的信息关联的API更新似乎不及时，在2022-09-01时，"mainBar"区域仍然为<br>“08月30日 03时50分<br>新疆克孜勒苏州阿图什市<br>24 千米<br>震级:3.4”<br>而在下面的“subBar”系区域，该条信息已经沉至第五条，不知是API提供者有意而为之还是其他原因。</p></font>
+		<a href="../../jquake_like.html">去往旧版</a>
+	</body>
+</html>
