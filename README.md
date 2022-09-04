@@ -9,5 +9,7 @@ History Updates:
   <ul>Version 1.0.1(非正式版-暂时采用)<br>
     添加了一些微小细节与进行微小删改，另外，增加了新页面(Eqtools_1.0.1 Branch)(https://github.com/dimffedgr/Eqtools/tree/Eqtools_1.0.1)</ul>
 </li>    
-  \9.2日:此Branch作废，不做解释，有关内容已删除。
+  你觉得……有彩蛋吗？
+  我可以告诉你：<del>没有</del>有的有的！！！
+  试着在Lighttools分站找到一个.txt文件吧～
 
